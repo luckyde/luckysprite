@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtensionManifest Version="4.0" ExtensionBundleId="com.luckysprite.panel" ExtensionBundleVersion="1.0.0"
+		ExtensionBundleName="Lucky Sprite Panel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Author>Marshall Jones</Author>
+    <Abstract><![CDATA[Scripts Panel]]></Abstract>
+	<ExtensionList>
+		<Extension Id="com.luckysprite.panel" Version="1.0.0" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+      <Host Name="ILST" Version="19.0" />
+      <Host Name="PHXS" Version="15.0" />
+      <Host Name="PHSP" Version="15.0" />
+      <Host Name="AEFT" Version="13.0" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="5.0" />
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="com.luckysprite.panel">
+			<DispatchInfo >
+				<Resources>
+				<MainPath>./index.html</MainPath>
+				<ScriptPath>./jsx/hostscript.jsx</ScriptPath>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>Panel</Type>
+					<Menu>Lucky Sprite Panel</Menu>
+					<Geometry>
+						<Size>
+							<Height>300</Height>
+							<Width>300</Width>
+						</Size>
+					</Geometry>
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>

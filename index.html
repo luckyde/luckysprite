@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/topcoat-desktop-dark.min.css" />
+    <link id="hostStyle" rel="stylesheet" href="css/styles.css" />
+    <style>
+
+    </style>
+    <title></title>
+</head>
+
+<body class="hostElt">
+
+    <div id="content">
+
+        <div>
+            <button id="btn_test" class="topcoat-button--large--cta hostFontSize">MAKE ME A SPRITE!</button>
+            <br> <br>
+            <label class="topcoat-radio-button hostFontSize">
+			  <input id="checkV" type="radio" name="topcoat" checked>
+			  <div class="topcoat-radio-button__checkmark"></div>
+			  Vertical
+			</label>
+            <label class="topcoat-radio-button hostFontSize">
+			  <input id="checkH" type="radio" name="topcoat" >
+			  <div class="topcoat-radio-button__checkmark"></div>
+			  Horisontal
+			</label>
+
+            <br><br>
+            <button id="getInfo" class="topcoat-button">Get Active Layer info</button>
+            <br><br>
+            <textarea id="infoBox" class="topcoat-textarea" rows="4" cols="20" style="width:100%; height:120px" placeholder=""></textarea>
+
+        </div>
+
+    </div>
+
+    <script src="js/libs/CSInterface.js"></script>
+    <script src="js/libs/jquery-2.0.2.min.js"></script>
+
+    <script src="js/themeManager.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
